@@ -25,6 +25,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 
 gem 'bower-rails'
+gem 'angular-rails-templates'
 
 gem "foreman"
 group :production, :staging do
@@ -40,6 +41,8 @@ group :test, :development do
   gem "capybara"
   gem "database_cleaner"
   gem "selenium-webdriver"
+  gem "teaspoon"
+  gem "phantomjs"
 end
 
 group :doc do
